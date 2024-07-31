@@ -157,8 +157,8 @@ def main():
     config.inverseFeatureCovariance = 1.0/parsed.inverseFeatureVariance
     config.maxNumberOfIterations = parsed.max_iter
     config.framerate = parsed.framerate
-    config.timeOffsetConstantSparsityPattern = 0.08
-    config.timeOffsetPadding = 0.5
+    config.timeOffsetConstantSparsityPattern = 0.5
+    config.timeOffsetPadding = 10
 
     ######
     ## Calibrate
